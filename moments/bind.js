@@ -5,7 +5,7 @@ function bind(fn, ctx) {
 }
 
 var obj = {
-  param: "value",
+  param: 'value',
   getParam: function() {
     console.log(this.param);
   }

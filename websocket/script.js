@@ -1,7 +1,7 @@
-const socket = new WebSocket("ws://localhost:8081");
+const socket = new WebSocket('ws://localhost:8081');
 
 socket.onopen = () => {
-  console.log("Connection has been established");
+  console.log('Connection has been established');
 };
 
 document.forms.publish.onsubmit = function() {
@@ -10,9 +10,9 @@ document.forms.publish.onsubmit = function() {
 };
 
 const showMessage = message => {
-  const messageElem = document.createElement("div");
+  const messageElem = document.createElement('div');
   messageElem.appendChild(document.createTextNode(message));
-  document.getElementById("subscribe").appendChild(messageElem);
+  document.getElementById('subscribe').appendChild(messageElem);
 };
 
 socket.onmessage = event => showMessage(event.data);

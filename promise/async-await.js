@@ -8,13 +8,13 @@ const getPromise = (ms, name) =>
 const promiseLauncher = async () => {
   console.log(`${new Date().toLocaleTimeString()} started`);
 
-  const longPromise = getPromise(5000, "long promise");
+  const longPromise = getPromise(5000, 'long promise');
   const longResult = await longPromise;
-  console.log(new Date().toLocaleTimeString() + " " + longResult);
+  console.log(new Date().toLocaleTimeString() + ' ' + longResult);
 
-  const shortPromise = getPromise(3000, "short promise");
+  const shortPromise = getPromise(3000, 'short promise');
   const shortResult = await shortPromise;
-  console.log(new Date().toLocaleTimeString() + " " + shortResult);
+  console.log(new Date().toLocaleTimeString() + ' ' + shortResult);
 };
 
 promiseLauncher();

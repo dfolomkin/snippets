@@ -1,4 +1,4 @@
-const ws = require("ws");
+const ws = require('ws');
 
 let clients = {};
 
@@ -6,13 +6,13 @@ const server = new ws.Server({
   port: 8081
 });
 
-server.on("connection", ws => {
+server.on('connection', ws => {
   const id = Math.trunc(Math.random() * 1000000);
   clients[id] = ws;
-  console.log("New connection " + id);
+  console.log('New connection ' + id);
 
-  ws.on("message", message => {
-    console.log("Message has been recieved: " + message);
+  ws.on('message', message => {
+    console.log('Message has been recieved: ' + message);
 
     // broadcasting
     for (let key in clients) {
@@ -20,7 +20,7 @@ server.on("connection", ws => {
     }
   });
 
-  ws.on("close", () => {
+  ws.on('close', () => {
     console.log(`Connection ${id} has been closed`);
     delete clients[id];
   });
