@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "first_name": "Serge",
+    "last_name": "Fenelon",
+    "email": "sfenelon0@trellian.com",
+    "gender": "Male",
+    "ip_address": "182.82.45.95"
+  },
+  {
+    "id": 2,
+    "first_name": "Lisetta",
+    "last_name": "Deport",
+    "email": "ldeport1@statcounter.com",
+    "gender": "Female",
+    "ip_address": "231.198.181.94"
+  },
+  {
+    "id": 3,
+    "first_name": "Spencer",
+    "last_name": "Alexsandrowicz",
+    "email": "salexsandrowicz2@sbwire.com",
+    "gender": "Male",
+    "ip_address": "28.75.144.135"
+  },
+  {
+    "id": 4,
+    "first_name": "Ulberto",
+    "last_name": "Manson",
+    "email": "umanson3@nature.com",
+    "gender": "Male",
+    "ip_address": "138.234.227.138"
+  },
+  {
+    "id": 5,
+    "first_name": "Creight",
+    "last_name": "Reedyhough",
+    "email": "creedyhough4@cbsnews.com",
+    "gender": "Male",
+    "ip_address": "165.227.0.127"
+  },
+  {
+    "id": 6,
+    "first_name": "Clemmy",
+    "last_name": "Paulucci",
+    "email": "cpaulucci5@ibm.com",
+    "gender": "Male",
+    "ip_address": "121.9.165.211"
+  },
+  {
+    "id": 7,
+    "first_name": "Ezmeralda",
+    "last_name": "Ajsik",
+    "email": "eajsik6@tripadvisor.com",
+    "gender": "Female",
+    "ip_address": "114.180.54.190"
+  },
+  {
+    "id": 8,
+    "first_name": "Annmaria",
+    "last_name": "Davidzon",
+    "email": "adavidzon7@redcross.org",
+    "gender": "Female",
+    "ip_address": "127.141.209.77"
+  },
+  {
+    "id": 9,
+    "first_name": "Inness",
+    "last_name": "McPherson",
+    "email": "imcpherson8@irs.gov",
+    "gender": "Male",
+    "ip_address": "7.105.74.172"
+  },
+  {
+    "id": 10,
+    "first_name": "Butch",
+    "last_name": "Lugsdin",
+    "email": "blugsdin9@dailymail.co.uk",
+    "gender": "Male",
+    "ip_address": "225.166.139.45"
+  }
+]
