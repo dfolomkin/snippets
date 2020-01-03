@@ -7,16 +7,17 @@ const server = new ws.Server({
 });
 
 server.on('connection', ws => {
-  const id = Math.trunc(Math.random() * 1000000);
-  clients[id] = ws;
-  console.log('New connection ' + id);
+  const id = Math.trunc(Math.random() * 1000);
 
-  ws.on('message', message => {
-    console.log('Message has been recieved: ' + message);
+  clients[id] = ws;
+  console.log('New connection', id);
+
+  ws.on('message', msg => {
+    console.log('Message has been recieved:', msg);
 
     // broadcasting
     for (let key in clients) {
-      clients[key].send(message);
+      clients[key].send(msg);
     }
   });
 
